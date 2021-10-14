@@ -4,8 +4,12 @@ For this part of the Challenge, you’ll write a report on the performance of th
 The report should contain the following:
 
 ## Overview of the analysis: Explain the purpose of this analysis.
+The purpose of this project is to explore and implement neural networks using the TensorFlow platform in Python.
 
-Results: Using bulleted lists and images to support your answers, address the following questions.
+The steps to do the task:
+- Preprocessing Data for a Neural Network Model
+- Compile, Train, and Evaluate the Model
+- Optimize the Model
 
 ## Data Preprocessing
 
@@ -25,4 +29,4 @@ Results: Using bulleted lists and images to support your answers, address the fo
 3. What steps did you take to try and increase model performance?
     - Removed one more features which is AFFILIATION column, updated the number of neuron for both hidden layer to 90 and 60. With this attempt, the accuracy went down to 66%.
 
-**Summary:** Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+**Summary:** Based on two attempted optimizations, the neural network accuracy ended up with 66%, which is lower than 73% accuracy of the initial neural network. Adding data to the dataset might help drive optimization or removing additional features.
